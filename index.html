@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>АГРОПРОМКОМПЛЕКТ</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="assets/libs/slicknav/slicknav.min.css">
+    <link rel="stylesheet" href="assets/libs/lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/libs/bxslider/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <script src="assets/libs/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-container">
+                <div class="address"><img class="address__icon" src="assets/images/address.png" alt="" />
+                    <div class="address__text">г. Рязань, Куйбышевское шоссе 25, стр. 16</div>
+                </div>
+                <div class="social"><a class="social__link" href="">
+                        <div class="social__icon social__icon--whatsapp"></div>
+                    </a><a class="social__link" href="">
+                        <div class="social__icon social__icon--vk"></div>
+                    </a><a class="social__link" href="">
+                        <div class="social__icon social__icon--telegram"></div>
+                    </a></div>
+                <div class="phone"><img class="phone__icon" src="assets/images/phone.png" alt="" /><a class="phone__link" href="tel:+74912999950">+7 (4912) 99-99-50</a></div><a class="callback" href="#">Прислать проект</a>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="header__main-container"><a class="logo" href="/"><img class="logo__img" src="assets/images/logo.png" alt="" /></a>
+                <div class="search">
+                    <form class="search__form" action="" method="post"><input class="search__input" type="search" name="search" placeholder="Поиск по сайту" /><button class="search__btn">
+                            <div class="search__icon"></div>
+                        </button></form>
+                </div>
+                <div class="auth"><img class="auth__icon" src="assets/images/auth.png" alt="" />
+                    <div class="auth__col"><a class="auth__acc" href="">Личный кабинет</a><a class="auth__reg" href="">Регистрация</a></div>
+                </div><a class="basket" href=""><img class="basket__icon" src="assets/images/basket.png" alt="" />
+                    <div class="basket__col">
+                        <div class="basket__title">Корзина</div>
+                        <div class="basket__price">0 ₽</div>
+                    </div>
+                    <div class="basket__count">0</div>
+                </a>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav__container">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link nav__link--dropdown" href="">Каталог товаров</a>
+                        <ul class="nav__sublist">
+                            <li class="nav__subitem"><a class="nav__sublink" href="">Название пункта меню</a></li>
+                            <li class="nav__subitem"><a class="nav__sublink" href="">Название пункта меню</a></li>
+                            <li class="nav__subitem"><a class="nav__sublink" href="">Название пункта меню</a></li>
+                            <li class="nav__subitem"><a class="nav__sublink" href="">Название пункта меню</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item"><a class="nav__link" href="">О компании</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Производство</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Услуги</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Аренда</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Инженерный центр</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Оптовикам</a></li>
+                    <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="home-slider">
+        <div class="home-slider__slider">
+            <div class="home-slider__item">
+                <div class="home-slider__container">
+                    <h2 class="home-slider__title">Ассортимент предлагаемой продукции отвечает требованиям предприятий нашего города</h2>
+                    <div class="home-slider__text">Соблюдение гарантийных обязательств - мы работаем только с поставщиками, способными обеспечить выполнение гарантийных обязательств;</div>
+                </div>
+                <div class="home-slider__left"></div><img class="home-slider__img" src="assets/images/home-slider.jpg" alt="" />
+            </div>
+            <div class="home-slider__item">
+                <div class="home-slider__container">
+                    <h2 class="home-slider__title">Ассортимент предлагаемой продукции отвечает требованиям предприятий нашего города</h2>
+                    <div class="home-slider__text">Соблюдение гарантийных обязательств - мы работаем только с поставщиками, способными обеспечить выполнение гарантийных обязательств;</div>
+                </div>
+                <div class="home-slider__left"></div><img class="home-slider__img" src="assets/images/home-slider.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+    <section class="home-catalog">
+        <div class="home-catalog__container">
+            <h2 class="home-catalog__title">Каталог товаров</h2>
+            <div class="home-catalog__list"><a class="category-item" href="">
+                    <div class="category-item__img-wrap"><img class="category-item__img" src="assets/images/home-catalog/1.png" alt="" /></div>
+                    <div class="category-item__name">Водоснабжение</div>
+                </a><a class="category-item" href="">
+                    <div class="category-item__img-wrap"><img class="category-item__img" src="assets/images/home-catalog/1.png" alt="" /></div>
+                    <div class="category-item__name">Водоснабжение</div>
+                </a><a class="category-item" href="">
+                    <div class="category-item__img-wrap"><img class="category-item__img" src="assets/images/home-catalog/1.png" alt="" /></div>
+                    <div class="category-item__name">Водоснабжение</div>
+                </a><a class="category-item" href="">
+                    <div class="category-item__img-wrap"><img class="category-item__img" src="assets/images/home-catalog/1.png" alt="" /></div>
+                    <div class="category-item__name">Водоснабжение</div>
+                </a><a class="category-item" href="">
+                    <div class="category-item__img-wrap"><img class="category-item__img" src="assets/images/home-catalog/1.png" alt="" /></div>
+                    <div class="category-item__name">Водоснабжение</div>
+                </a></div><a class="home-catalog__more" href="">Весь каталог</a>
+        </div>
+    </section>
+    <section class="popular-products">
+        <div class="popular-products__container">
+            <h2 class="popular-products__title">Популярные товары</h2>
+            <div class="popular-products__slider">
+                <div class="product-card">
+                    <div class="product-card__img-wrap"><img class="product-card__img" src="assets/images/product.png" alt="" /></div>
+                    <div class="product-card__content">
+                        <div class="product-card__name">507-1LH Кран для гигиент душа и бачка унитаза</div>
+                        <div class="product-card__stock">В наличии</div>
+                        <div class="product-card__price">997 ₽</div>
+                        <div class="product-card__row">
+                            <div class="product-card__count">
+                                <div class="product-card__label">Кол-во</div>
+                                <div class="spinner"><button class="spinner__less" type="button"><img class="spinner__icon" src="assets/images/minus.png" alt="" /></button><input class="spinner__input" type="text" value="0" /><button class="spinner__more" type="button"><img class="spinner__icon" src="assets/images/plus.png" alt="" /></button></div>
+                            </div><a class="product-card__btn" href="">
+                                <div class="product-card__icon"></div>Купить
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-card__hit">ХИТ</div>
+                    <div class="product-card__like product-card__like--active"></div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img-wrap"><img class="product-card__img" src="assets/images/product.png" alt="" /></div>
+                    <div class="product-card__content">
+                        <div class="product-card__name">507-1LH Кран для гигиент душа и бачка унитаза</div>
+                        <div class="product-card__stock">В наличии</div>
+                        <div class="product-card__price">997 ₽</div>
+                        <div class="product-card__row">
+                            <div class="product-card__count">
+                                <div class="product-card__label">Кол-во</div>
+                                <div class="spinner"><button class="spinner__less" type="button"><img class="spinner__icon" src="assets/images/minus.png" alt="" /></button><input class="spinner__input" type="text" value="0" /><button class="spinner__more" type="button"><img class="spinner__icon" src="assets/images/plus.png" alt="" /></button></div>
+                            </div><a class="product-card__btn" href="">
+                                <div class="product-card__icon"></div>Купить
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-card__hit">ХИТ</div>
+                    <div class="product-card__like product-card__like--active"></div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img-wrap"><img class="product-card__img" src="assets/images/product.png" alt="" /></div>
+                    <div class="product-card__content">
+                        <div class="product-card__name">507-1LH Кран для гигиент душа и бачка унитаза</div>
+                        <div class="product-card__stock">В наличии</div>
+                        <div class="product-card__price">997 ₽</div>
+                        <div class="product-card__row">
+                            <div class="product-card__count">
+                                <div class="product-card__label">Кол-во</div>
+                                <div class="spinner"><button class="spinner__less" type="button"><img class="spinner__icon" src="assets/images/minus.png" alt="" /></button><input class="spinner__input" type="text" value="0" /><button class="spinner__more" type="button"><img class="spinner__icon" src="assets/images/plus.png" alt="" /></button></div>
+                            </div><a class="product-card__btn" href="">
+                                <div class="product-card__icon"></div>Купить
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-card__hit">ХИТ</div>
+                    <div class="product-card__like product-card__like--active"></div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img-wrap"><img class="product-card__img" src="assets/images/product.png" alt="" /></div>
+                    <div class="product-card__content">
+                        <div class="product-card__name">507-1LH Кран для гигиент душа и бачка унитаза</div>
+                        <div class="product-card__stock">В наличии</div>
+                        <div class="product-card__price">997 ₽</div>
+                        <div class="product-card__row">
+                            <div class="product-card__count">
+                                <div class="product-card__label">Кол-во</div>
+                                <div class="spinner"><button class="spinner__less" type="button"><img class="spinner__icon" src="assets/images/minus.png" alt="" /></button><input class="spinner__input" type="text" value="0" /><button class="spinner__more" type="button"><img class="spinner__icon" src="assets/images/plus.png" alt="" /></button></div>
+                            </div><a class="product-card__btn" href="">
+                                <div class="product-card__icon"></div>Купить
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-card__hit">ХИТ</div>
+                    <div class="product-card__like product-card__like--active"></div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img-wrap"><img class="product-card__img" src="assets/images/product.png" alt="" /></div>
+                    <div class="product-card__content">
+                        <div class="product-card__name">507-1LH Кран для гигиент душа и бачка унитаза</div>
+                        <div class="product-card__stock">В наличии</div>
+                        <div class="product-card__price">997 ₽</div>
+                        <div class="product-card__row">
+                            <div class="product-card__count">
+                                <div class="product-card__label">Кол-во</div>
+                                <div class="spinner"><button class="spinner__less" type="button"><img class="spinner__icon" src="assets/images/minus.png" alt="" /></button><input class="spinner__input" type="text" value="0" /><button class="spinner__more" type="button"><img class="spinner__icon" src="assets/images/plus.png" alt="" /></button></div>
+                            </div><a class="product-card__btn" href="">
+                                <div class="product-card__icon"></div>Купить
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-card__hit">ХИТ</div>
+                    <div class="product-card__like product-card__like--active"></div>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__img-wrap"><img class="product-card__img" src="assets/images/product.png" alt="" /></div>
+                    <div class="product-card__content">
+                        <div class="product-card__name">507-1LH Кран для гигиент душа и бачка унитаза</div>
+                        <div class="product-card__stock">В наличии</div>
+                        <div class="product-card__price">997 ₽</div>
+                        <div class="product-card__row">
+                            <div class="product-card__count">
+                                <div class="product-card__label">Кол-во</div>
+                                <div class="spinner"><button class="spinner__less" type="button"><img class="spinner__icon" src="assets/images/minus.png" alt="" /></button><input class="spinner__input" type="text" value="0" /><button class="spinner__more" type="button"><img class="spinner__icon" src="assets/images/plus.png" alt="" /></button></div>
+                            </div><a class="product-card__btn" href="">
+                                <div class="product-card__icon"></div>Купить
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-card__hit">ХИТ</div>
+                    <div class="product-card__like product-card__like--active"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about__container">
+            <h1 class="about__title">О нас</h1>
+            <div class="about__row">
+                <div class="about__content">
+                    <p><strong>Компания ООО «Агропромкомплект»</strong> занимается комплексным снабжением строительных, монтажных и торговых организаций промышленным оборудованием и инженерной сантехникой. В течение 17 лет успешной работы мы придерживаемся следующих основных принципов сотрудничества:</p>
+                    <p>Постоянный контроль качества поставляемой продукции;</p>
+                    <p>Соблюдение гарантийных обязательств - мы работаем только с поставщиками, способными обеспечить выполнение гарантийных обязательств;</p>
+                    <p>Повышение уровня обслуживания - отсутствие потери времени клиентов при выписке документов, загрузке на складе. Наличие широкого ассортимента на складе, профессионализм сотрудников.</p>
+                    <p>Команда высококвалифицированных специалистов ООО «Агропромкомплект» надеется, что сотрудничество с нашей организацией поможет решить Ваши задачи, сэкономить время и затраты на эксплуатацию и ремонт. Мы надеемся, что работа с нами принесет Вам положительный заряд энергии и поможет Вам добиться успеха!</p>
+                    <p>С 1997 года Агропромкомплект активно занимает свою позицию на рынке Рязани и области, создает все условия для успешного сотрудничества и продвижения вашей деятельности. Нас рекомендуют - а это показатель надежности предприятия!</p>
+                </div>
+                <div class="about__gallery"><img src="assets/images/about/1.png" alt="" /><img src="assets/images/about/2.png" alt="" /></div>
+            </div>
+        </div>
+    </section>
+    <section class="last-news">
+        <div class="last-news__container">
+            <h2 class="last-news__title">Актуальные новости</h2>
+            <div class="last-news__list"><a class="news-item" href=""><img class="news-item__img" src="assets/images/news/1.png" alt="" />
+                    <div class="news-item__content">
+                        <div class="news-item__name">Насосы погружные скважинные серии 3ЭЦВ</div>
+                        <div class="news-item__date">12.08.2022</div>
+                        <div class="news-item__text">Новые скважинные насосы российского производства ОАО "Ливнынасос" не уступающие ведущим мировым образцам ...</div>
+                    </div>
+                </a><a class="news-item" href=""><img class="news-item__img" src="assets/images/news/1.png" alt="" />
+                    <div class="news-item__content">
+                        <div class="news-item__name">Насосы погружные скважинные серии 3ЭЦВ</div>
+                        <div class="news-item__date">12.08.2022</div>
+                        <div class="news-item__text">Новые скважинные насосы российского производства ОАО "Ливнынасос" не уступающие ведущим мировым образцам ...</div>
+                    </div>
+                </a><a class="news-item" href=""><img class="news-item__img" src="assets/images/news/1.png" alt="" />
+                    <div class="news-item__content">
+                        <div class="news-item__name">Насосы погружные скважинные серии 3ЭЦВ</div>
+                        <div class="news-item__date">12.08.2022</div>
+                        <div class="news-item__text">Новые скважинные насосы российского производства ОАО "Ливнынасос" не уступающие ведущим мировым образцам ...</div>
+                    </div>
+                </a></div><a class="last-news__more" href="">Все новости</a>
+        </div>
+    </section>
+    <section class="brands">
+        <div class="brands__container">
+            <h2 class="brands__title">Бренды</h2>
+            <div class="brands__slider"><img class="brands__img" src="assets/images/brands/1.png" alt="" /><img class="brands__img" src="assets/images/brands/2.png" alt="" /><img class="brands__img" src="assets/images/brands/3.png" alt="" /><img class="brands__img" src="assets/images/brands/4.png" alt="" /><img class="brands__img" src="assets/images/brands/5.png" alt="" /><img class="brands__img" src="assets/images/brands/6.png" alt="" /><img class="brands__img" src="assets/images/brands/7.png" alt="" /></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__col"><a class="logo" href="/"><img class="logo__img" src="assets/images/logo-white.png" alt="" /></a>
+                <div class="footer__copyright">© 2004-2023 «Агропромкомплект»</div>
+            </div>
+            <address class="footer__contacts">
+                <div class="footer__item">
+                    <div class="footer__label">телефон:</div>
+                    <div class="phone"><img class="phone__icon" src="assets/images/phone.png" alt="" /><a class="phone__link" href="tel:+74912999950">+7 (4912) 99-99-50</a></div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__label">адрес:</div>
+                    <div class="address"><img class="address__icon" src="assets/images/address.png" alt="" />
+                        <div class="address__text">г. Рязань, Куйбышевское шоссе 25, стр. 16</div>
+                    </div>
+                </div>
+            </address>
+            <nav class="footer__nav"><a class="footer__link" href="">Водоснабжение</a><a class="footer__link" href="">Отопление</a><a class="footer__link" href="">Канализация</a><a class="footer__link" href="">Крепеж</a><a class="footer__link" href="">Электрика</a><a class="footer__link" href="">Пожарное оборудование</a><a class="footer__link" href="">Метизы</a></nav>
+            <div class="footer__info"><img class="footer__counter" src="assets/images/counter.png" alt="" />
+                <div class="galaxy"><img class="galaxy__img" src="assets/images/galaxy.png" alt="" />
+                    <div class="galaxy__col">
+                        <div class="galaxy__row"><a class="galaxy__link" href="https://galaxydesign.ru/">Создание сайта</a>
+                            <div class="galaxy__line">—</div>
+                        </div>
+                        <div class="galaxy__text">студия «Галактика»</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="assets/libs/slicknav/jquery.slicknav.min.js"></script>
+    <script src="assets/libs/lightbox/js/lightbox.min.js"></script>
+    <script src="assets/libs/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/scripts/index.js"></script>
+</body>
+
+</html>
